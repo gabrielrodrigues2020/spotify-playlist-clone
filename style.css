@@ -1,0 +1,156 @@
+body {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    
+}
+main #left-side {
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to bottom,#4f4f3b,#2f2f22);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main #left-side .img img{
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+}
+main #left-side .img img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+main #left-side .text-playlist {
+    margin-top: 70px;
+    margin-left: 13px;
+    text-align: left;
+}
+main #left-side .text-playlist span{
+    font-weight: bold;
+}
+main #left-side .text-playlist .playlist {
+    font-size: 13px;
+    margin-left: 4px;
+}
+main #left-side .text-playlist .text1 p, h1{
+    margin-bottom: -15px;
+}
+main #left-side .text-playlist .p1 {
+    margin-top: 80px;
+}
+main #right-side {
+    height: 830px;
+    width: 100%;
+    background-image: linear-gradient(to top, #121311,#111211);
+}
+main #right-side .play {
+    display: flex;
+    align-items: center;
+}
+main #right-side .play-controls{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    align-items: center;
+}
+main #right-side .play .img1 {
+    width: 60px;
+}
+main #right-side .play .img2 {
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+main #right-side .play .donwload {
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+main #right-side .play .img3 {
+    margin-left: 15px;
+    width: 40px;
+}
+main #right-side .play .img1:hover, #right-side .play .img2:hover,#right-side .play .donwload:hover, main #right-side .play .img3:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+main #right-side .play .search img {
+    width: 40px;
+    margin-left: 1500px;
+}
+main #right-side .play .search img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+main #right-side .music .title {
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+main #right-side .music .title img {
+    width: 30px;
+    height: 30px;
+}
+.music-play {
+    margin-top: 30px;
+}
+.hashtag {
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.title {
+    margin-right: 480px;
+}
+.ALBUM {
+    margin-right: 980px;
+}
+hr {
+    opacity: 40%;
+}
+.img-heart {
+    width: 30px;
+    height: 30px;
+}
+.music-play {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.img-music {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+}
+.number {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.title-artist {
+    margin-left: 30px;
+    margin-right: 235px;
+}
+.album-title {
+    margin-right:970px;
+}
+.timer {
+    margin-right: 90px;
+}
+.img-music:hover {
+    transform: scale(1.03);
+    transition:all 0.3s ease-in-out;
+}
+.music-name {
+    font-size: 25px;
+    font-weight: bold;
+}
